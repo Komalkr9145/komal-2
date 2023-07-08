@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Montserrat:wght@500&display=swap');
+* {
+    padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+     text-decoration: none;
+     font-family: 'DM Sans', sans-serif;
+    
+   }
+   html{
+    scroll-behavior: smooth;
+    
+}
+body{
+  background-color: black;
+  background-attachment: fixed;
+  width:100%;
+  overflow-x: hidden;
+ }
+  
+  .logo{
+    width: 15%;
+    margin-top: 20px;
+}
+  .max-width{
+    max-width:100%;
+    padding: 0 80px;
+  }
+  /* navbar styling*/
+
+.navbar {
+  background-color: black;
+ width: 100%;
+
+}
+.navbar .max-width{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+ 
+.navbar .menu li {
+  background-color: #fff;
+  list-style: none;
+  display: inline-block;
+  margin-top: 20px;
+  border-radius: 25px;
+  padding: 13px 20px;
+  margin-left: 20px;
+}
+.navbar .menu li:hover{
+ background-color: gray;
+ animation-name: shakeAnim;
+}
+.navbar .menu li a{
+  color: black;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+ /* menu icon styling*/
+ .menu-btn{
+  color: #fff;
+  font-size: 23px;
+  cursor: pointer;
+  display: none;
+ }
+/* main text*/
+.container {
+  color:#fff;
+
+}
+.container .max-width{
+  width: 100%;
+  display: flex;
+}
+.container .max-width .text-1{
+  font-family: "DM Sans", "DM Sans Placeholder", sans-serif;
+  margin-left: 10%;
+  margin-top:18%;
+  text-align: center;
+  font-size: 42px;
+  font-weight: 700;
+  letter-spacing: -2.6px;
+  color: rgb(214, 209, 209);
+  width: 80%;
+}
+ .text-para{
+  font-family: "DM Sans", "DM Sans Placeholder", sans-serif;
+  font-size: 24px;
+  letter-spacing: -0.5px;
+  line-height: 1.5em;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  margin: auto;
+  margin-top:25px;
+  font-size: 20px;
+  margin-left: 25em;
+    width:35%;
+}
+/* start vibration*/
+.join-waitlist{
+  font-family: "Inter", "Inter Placeholder", sans-serif;
+  background-color: #ebebeb;
+  color: rgb(51, 51, 51);
+  border: 0;
+  border-radius: 25px;
+  font-size: 15px;
+  padding: 13px;
+  margin-top: 2%;
+  margin-left: 46%;
+  position: relative;
+  width:9%;
+  animation-name: shake;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+  cursor: pointer;
+}
+.join-waitlist:hover{
+  background-color: gray;
+  animation-name: shakeAnim;
+  
+}
+@keyframes shakeAnim {
+  0% {left: 0}
+  1% {left: -3px}
+  2% {left: 5px}
+  3% {left: -8px}
+  4% {left: 8px}
+  5% {left: -5px}
+  6% {left: 3px}
+  7% {left: 0}
+}
+
+@keyframes shake {
+  0% {left: 0}
+  1% {left: -3px}
+  2% {left: 5px}
+  3% {left: -8px}
+  4% {left: 8px}
+  5% {left: -5px}
+  6% {left: 3px}
+  7% {left: 0}
+}/* end button vibration*/
+
+/*what matters to you*/
+.main-text{
+  
+    font-family: "DM Sans", "DM Sans Placeholder", sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 170%;
+    font-weight: 700;
+  /*     letter-spacing: -2.30px; */
+    white-space: pre-wrap;
+    margin-left: 10%;
+    width:80%;
+    margin-top: 10%;
+}
+.main-box-text{
+  display: flex;
+  margin-top: -30px;
+}
+.box-1{
+  color: white;
+  width: 17%;
+  margin-top: 9em;
+  margin-left: 17em;
+}
+.box-1 h4{
+  font-size: 22px;
+  margin: auto;
+}
+.box-1 p{
+  margin-top: 17px;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+.box-2{
+  color: white;
+  width: 17%;
+  margin-top: 9em;
+  margin-left: 7em;
+}
+.box-2 h4{
+  font-size: 22px;
+  margin: auto;
+}
+.box-2 p{
+  margin-top: 17px;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+.box-3{
+  color: white;
+  width: 17%;
+  margin-top: 9em;
+  margin-left: 7em;
+}
+.box-3 h4{
+  font-size: 22px;
+  margin: auto;
+}
+.box-3 p{
+  margin-top: 17px;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+
+/* diverse area*/
+.text-interview{
+  color: #fff;
+  margin-top: 5em;
+  margin-left:15% ;
+}
+.diverse{
+  font-family: "DM Sans", "DM Sans Placeholder", sans-serif;
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: -2.1px;
+  text-align: center;
+  color: rgb(252, 252, 252);
+  margin-top: 19%;
+  margin-left: -22%;
+}
+.text-interview p{
+  font-family: "DM Sans", "DM Sans Placeholder", sans-serif;
+  font-size: 24px;
+  text-align: center;
+   color: rgb(252, 252, 252);
+   margin-top:40px;
+   margin-left: 5%;
+   width:69%;
+}
+
+/* Practise Area*/
+.main-practiseText{
+  color: rgb(252, 252, 252);
+  margin: auto;
+  margin-top: 20%;
+  margin-left:9%;
+}
+.main-practiseText h1{
+  margin: auto;
+  font-size:38px;
+}
+.inner-btn{
+  color: rgb(252, 252, 252);
+  justify-content: space-around;
+  justify-content: center;
+  display: flex;
+  margin-left: 5px;
+  margin-top: 5em;
+  font-size: 20px;
+  gap:5%;
+  width: 89%;
+  
+}
+.common-1,.common-2,.common-3,.common-4{
+  background-color: transparent;
+  border: 3px solid #ffffff8f ;
+  padding: 5px;
+  font-family: 'DM Sans', sans-serif;
+  text-align: center;
+  border-radius: 20px;
+  font-size: 25px;
+  width: 20%;
+  margin-left:-10px;
+  
+}
+.common-1:hover{
+  background-color: rgba(128, 128, 128, 0.195);
+}
+.common-2:hover{
+  background-color: rgba(128, 128, 128, 0.195);
+}
+.common-3:hover{
+  background-color: rgba(128, 128, 128, 0.195);
+}
+.common-4:hover{
+  background-color: rgba(128, 128, 128, 0.195);
+}
+/* big text*/
+.m-text h2 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 34px;
+  letter-spacing: -2px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    padding-top:15%;
+    padding-bottom:3%;
+ 
+}
+/*start button vibrate style*/
+ .custom-btn{
+  background-color: white;
+  border: 0;
+  border-radius: 25px;
+  font-size: 15px;
+  padding: 11px 23px;
+  margin-top: -30px;
+  margin-left: 45%;
+  position: relative;
+  width: 9%;
+  animation-name: shake;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+  cursor: pointer;
+}
+.custom-btn:hover{
+  background-color: gray;
+  animation-name: shakeAnim;
+  
+}
+@keyframes shakeAnim {
+  0% {left: 0}
+  1% {left: -3px}
+  2% {left: 5px}
+  3% {left: -8px}
+  4% {left: 8px}
+  5% {left: -5px}
+  6% {left: 3px}
+  7% {left: 0}
+}
+
+@keyframes shake {
+  0% {left: 0}
+  1% {left: -3px}
+  2% {left: 5px}
+  3% {left: -8px}
+  4% {left: 8px}
+  5% {left: -5px}
+  6% {left: 3px}
+  7% {left: 0}
+}/* end button vibration*/
+
+.big-img{
+  margin-left: 13em;
+  margin-top: 15em;
+}
+/* Footer Area*/
+
+hr{
+  width: 78%;
+  margin-left: 10em;
+  margin-top: 6%;
+  opacity: 0.33;
+}
+
+footer {
+
+  padding: 22px;
+  color: #fff;
+  opacity: 0.7;
+  margin-left: 7em;
+  font-size: 20px;
+}
+
+.footer-text{
+  color: #fff;
+  display: flex;
+  opacity: 0.7;
+  gap:7em;
+  margin-left: 40%;
+  margin-top:-40px;
+}
+
+.icon {
+  margin-top: -1.45%;
+  margin-left: 71%;
+}
+
+
